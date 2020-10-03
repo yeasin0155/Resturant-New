@@ -1,0 +1,47 @@
+.container{
+    width: 80%;
+    max-width: 1140px;
+    margin: auto;
+    height: 100%;
+}
+
+
+//Paddings
+
+
+
+//Margins
+
+.mr-sm{
+    margin-right: map-get($margin, 'small');
+}
+
+.mr{
+    margin-right: map-get($margin, 'normal');
+}
+
+.mr-lg{
+    margin-right: map-get($margin, 'large');
+}
+
+.mr-xl{
+    margin-right: map-get($margin, 'extra');
+}
+
+
+.ml-sm{
+    margin-left: map-get($margin, 'small');
+}
+
+.ml{
+    margin-left: map-get($margin, 'normal');
+}
+
+.ml-lg{
+    margin-left: map-get($margin, 'large');
+}
+
+.ml-xl{
+    margin-left: map-get($margin, 'extra');
+}
+

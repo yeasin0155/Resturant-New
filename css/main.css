@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap");
+.container, .menu__container {
+  width: 80%;
+  max-width: 1140px;
+  margin: auto;
+  height: 100%; }
+
+.mr-sm {
+  margin-right: 0.5rem; }
+
+.mr {
+  margin-right: 1rem; }
+
+.mr-lg {
+  margin-right: 1.5rem; }
+
+.mr-xl {
+  margin-right: 2rem; }
+
+.ml-sm {
+  margin-left: 0.5rem; }
+
+.ml {
+  margin-left: 1rem; }
+
+.ml-lg {
+  margin-left: 1.5rem; }
+
+.ml-xl {
+  margin-left: 2rem; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 400; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 600; }
+
+a {
+  text-decoration: none;
+  color: #0B0B0C; }
+
+p {
+  font-size: 1.25rem;
+  font-weight: 400; }
+
+.alert-info {
+  color: #FFFFFF;
+  background: #7131A0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px; }
+
+.btn {
+  padding: 0.5rem 1.5rem;
+  border-radius: 22px; }
+  .btn-primary {
+    background: #7131A0;
+    color: #FFFFFF; }
+  .btn-secondary {
+    background: #FFC006;
+    color: #FFFFFF; }
+  .btn-order {
+    background: #FFC006;
+    color: #FFFFFF;
+    border-radius: 10px; }
+
+.badge {
+  padding: 2px 8px;
+  background: #FFC006;
+  border-radius: 50%;
+  font-weight: 600; }
+
+.about {
+  height: 35rem;
+  width: 100%;
+  background: #EFECE3;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .about__card {
+    background: #FFFFFF;
+    width: 60%;
+    border-radius: 10px;
+    padding: 2rem; }
+  .about__content {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .about__item {
+    text-align: center;
+    width: 80%;
+    padding: 0.5rem; }
+    .about__item p {
+      font-size: 1rem; }
+    .about__item img {
+      height: 120px; }
+    .about__item h3 {
+      padding: 0.5rem 0; }
+
+.section-title {
+  width: 100%;
+  text-align: center; }
+  .section-title__icon {
+    text-align: center; }
+
+.menu {
+  border: 2px solid #7131A0;
+  height: 80px; }
+  .menu__container {
+    display: flex;
+    align-items: center; }
+  .menu__logo {
+    flex-grow: 1; }
+    .menu__logo img {
+      height: 50px; }
+  .menu__links {
+    list-style: none;
+    display: flex; }
+  .menu__item a {
+    font-weight: 600;
+    padding: 1.5rem;
+    margin-right: 1.5rem; }
+    .menu__item a:hover {
+      color: #FFC006; }
+  .menu__cart img {
+    height: 20px; }
+
+.hero__header-image img {
+  position: relative;
+  height: 40rem;
+  width: 100%; }
+
+.hero__text {
+  top: 18.12rem;
+  left: 18rem;
+  position: absolute;
+  text-align: center; }
+  .hero__text h1 {
+    color: #FFFFFF;
+    font-size: 3rem; }
+  .hero__text p {
+    color: #FFFFFF;
+    padding-bottom: 1.5rem; }
+  .hero__text .secondary {
+    color: #FFC006; }
+
+.brush {
+  height: 15rem;
+  display: flex;
+  justify-content: center; }
+  .brush__bg {
+    position: absolute;
+    height: 15rem;
+    width: 100%; }
+  .brush__items {
+    top: 2rem;
+    left: 1rem;
+    position: relative;
+    flex-direction: column;
+    width: 25%; }
+    .brush__items img {
+      height: 12rem;
+      position: absolute; }
+  .brush__content {
+    top: 3.5rem;
+    right: 1.5rem;
+    color: #FFFFFF;
+    text-align: center;
+    position: relative; }
+
+.options {
+  height: 28rem; }
+  .options img {
+    height: 28rem;
+    width: 100%;
+    position: absolute; }
+  .options__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top: 6rem;
+    position: relative;
+    height: 15rem;
+    width: 60%;
+    flex-direction: column; }
+  .options .primary {
+    height: 7.5rem; }
+    .options .primary a {
+      background-color: #A258D8;
+      color: #FFFFFF; }
+    .options .primary__1 {
+      padding: 3rem 2.4rem; }
+    .options .primary__2 {
+      padding: 3rem 3.8rem; }
+    .options .primary__3 {
+      padding: 3rem 3rem; }
+    .options .primary__4 {
+      padding: 3rem 3rem; }
+  .options .secondary a {
+    background-color: #7131A0;
+    color: #FFFFFF; }
+  .options .secondary__5 {
+    padding: 3rem 3.45rem; }
+  .options .secondary__6 {
+    padding: 3rem 2.4rem; }
+  .options .secondary__7 {
+    padding: 3rem 2.9rem; }
+  .options .secondary__8 {
+    padding: 3rem 1.95rem; }
+
+.comment img {
+  height: 30rem;
+  width: 100%; }

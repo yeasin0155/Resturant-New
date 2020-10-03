@@ -1,0 +1,27 @@
+.btn{
+    padding: map-get($padding, 'small') map-get($padding, 'large');
+    border-radius: $border-radius;
+
+    &-primary{
+        background: $primary;
+        color: $white;
+    }
+
+    &-secondary{
+        background: $secondary;
+        color: $white;
+    }
+    &-order{
+        background: $secondary;
+        color: $light;
+        border-radius: 10px;
+    }
+}
+
+
+.badge{
+    padding: 2px 8px;
+    background: $secondary;
+    border-radius: 50%;
+    font-weight: map-get($font-weight, 'bold');
+}

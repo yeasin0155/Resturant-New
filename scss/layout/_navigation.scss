@@ -1,0 +1,40 @@
+.menu{
+    border: 2px solid $primary;
+    height: 80px;
+
+    &__container{
+        display: flex;
+        align-items: center;
+        @extend .container;
+    }
+
+    &__logo{
+        flex-grow: 1;
+        img{
+            height: 50px;
+        }
+    }
+
+    &__links{
+        list-style: none;
+        display: flex;
+    }
+
+    &__item{
+        a{
+            font-weight: map-get($font-weight, 'bold');
+            padding: map-get($padding, 'large');
+            margin-right: map-get($margin, 'large');
+
+            &:hover{
+                color: $secondary;
+            }
+        }
+    }
+
+    &__cart{
+        img{
+            height: 20px;
+        }
+    }
+}

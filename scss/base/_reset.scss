@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $font-family-normal;
+    font-weight: map-get($font-weight, 'normal');
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: $font-family-display;
+    font-weight: map-get($font-weight, 'bold');
+}
+
+a{
+    text-decoration: none;
+    color: $dark;
+}
+
+p{
+    font-size: map-get($font, 'normal');
+    font-weight: map-get($font-weight, 'normal');
+}

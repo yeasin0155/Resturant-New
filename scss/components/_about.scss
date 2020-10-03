@@ -1,0 +1,34 @@
+.about{
+    height: 35rem;
+    width: 100%;
+    background: $grey-light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    &__card{
+        background: $light;
+        width: 60%;
+        border-radius: 10px;
+        padding: map-get($padding, "extra" );
+    }
+    &__content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__item{
+        text-align: center;
+        width: 80%;
+        padding: map-get($padding, "small" );
+        p{
+            font-size: map-get($font, "small" );
+        }
+        img{
+            height: 120px;
+        }
+        h3{
+            padding: map-get($padding, "small" ) 0;
+        }
+    }
+}

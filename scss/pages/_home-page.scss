@@ -1,0 +1,142 @@
+//Hero-section start
+
+.hero{
+    &__header-image{
+        img{
+            position: relative;
+            height: 40rem;
+            width: 100%;
+        }
+    }
+    &__text{
+         top: 18.12rem;
+        left: 18rem;
+        position: absolute;
+        text-align: center;
+        h1{
+            color: $light;
+            font-size: map-get($font, "extra-l" );
+        }
+        p{
+            color: $light;
+            padding-bottom: map-get($padding, "large" );
+        }
+        .secondary{
+            color: $secondary;
+        }   
+    }        
+}
+//hero section end
+
+//brush section start
+
+.brush{
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    &__bg{
+        position: absolute;
+        height: 15rem;
+        width: 100%;
+    }
+    &__items{
+        img{
+            height: 12rem;
+            position: absolute;
+        }
+        top:2rem;
+        left: 1rem;
+        position: relative;
+        flex-direction: column;
+        width: 25%;
+        
+    }
+    &__content{
+        top:3.5rem;
+        right: 1.5rem;
+        color: $light;
+        text-align: center;
+        position: relative;  
+    }
+}
+
+
+//brush section end
+
+//option section start
+
+.options{
+    height: 28rem;
+    
+    
+    img{
+        height: 28rem;
+        width: 100%;
+        position: absolute;
+        
+    }
+    &__card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        top: 6rem;
+        position: relative;
+        height: 15rem;
+        width: 60%;
+        flex-direction: column;
+    }
+    .primary{
+        height: 7.5rem;
+        a{
+            background-color: #A258D8;
+            color: $light;
+        }
+        &__1{
+            padding: 3rem 2.4rem; 
+        }
+        &__2{
+            padding: 3rem 3.8rem; 
+        }
+        &__3{
+            padding: 3rem 3rem; 
+        }
+        &__4{
+            padding: 3rem 3rem; 
+        }
+        
+    }
+
+    .secondary{
+        a{
+            background-color: #7131A0;
+            color: $light;
+        }
+        &__5{
+            padding: 3rem 3.45rem; 
+        }
+        &__6{
+            padding: 3rem 2.4rem; 
+        }
+        &__7{
+            padding: 3rem 2.9rem; 
+        }
+        &__8{
+            padding: 3rem 1.95rem; 
+        }
+    }
+}
+
+//comment section start
+
+.comment{
+    img{
+        height: 30rem;
+        width: 100%;
+    }
+    
+
+}
+
+
+

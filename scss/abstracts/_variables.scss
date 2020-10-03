@@ -1,0 +1,30 @@
+$purple: #7131A0;
+$orange: #FFC006;
+$white: #FFFFFF;
+$grey-light: #EFECE3;
+$grey: #00000029;
+$grey-dark: #878485;
+$black: #0B0B0C;
+
+//Colors
+$primary: $purple;
+$secondary: $orange;
+$light: $white;
+$dark: $black;
+
+//Backgrounds
+$bg-primary: $light;
+$bg-secondary: #F2F2F2;
+$bg-tertiary: $grey-light;
+
+$border-radius: 22px;
+$font-family-normal : "Segoe UI", sans-serif;
+$font-family-display : "Roboto Slab", serif;
+
+
+//Maps
+$margin: ("small" : 0.5rem, "normal" :1rem, "large": 1.5rem, "extra": 2rem );
+$padding: ("small" : 0.5rem, "normal" :1rem, "large": 1.5rem, "extra": 2rem );
+$font:  ("small" : 1rem, "normal" : 1.25rem, "large": 1.5rem, "extra": 2rem, "extra-l": 3rem );
+$display: ("small" : 2rem, "normal" : 3rem, "large": 4rem, "extra": 5rem );
+$font-weight:  ("normal" : 400, "bold": 600, "bolder": 700 );

@@ -1,0 +1,14 @@
+{
+  "name": "sass-new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node-sass -o css scss/main.scss",
+"watch": "node-sass -w -o css scss/main.scss",
+"prod": "node-sass --output-style compressed -o css scss/main.scss"
+  },
+  "author": "",
+  "license": "ISC"
+}
