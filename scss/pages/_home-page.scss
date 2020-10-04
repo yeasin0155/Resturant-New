@@ -130,13 +130,148 @@
 //comment section start
 
 .comment{
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     img{
         height: 30rem;
         width: 100%;
+        position: absolute;
     }
-    
+    &__card{
+        padding-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        background:$light;
+        position: relative;
+        border-radius: 10px;
+    }
+    &__customer{
+        display: flex;
+        flex-direction: column;
+        height: 10rem;
+        justify-content: center;
+        margin: 1rem;
+        img{position: relative;
+            display: flex;
+            height: 5rem;
+            width: 5rem;
+            border-radius: 50%;
+            padding: .5rem;
+        }
+    }
+    &__content{
+        height: 16rem;
+        h3{
+            color: #FFC519;
+        }
+        p{  padding: 1rem;
+            font-size: 1rem;
+        }
+    }
+    &__show{
+        display: flex;
+        padding: 3rem 1rem;
+        img{
+            position: relative;
+            height: 3rem;
+            width: 3rem;
+            border-radius: 50%;
+        }
+        p{
+            padding:0 1rem;
+        }
+    }
 
 }
 
+//comment section end
+
+//delivery banner start
+
+.delivery-banner{
+    img{
+        height: 40rem;
+        width: 100%;
+    }
+}
+//delivery banner end
+
+//blog-section start
+
+.blog{
+    height: 35rem;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__box{
+        height: 25rem;
+        width: 60%;
+        img{
+            height: .6rem;
+        }
+    }
+    &__content{
+        display: flex;
+        height: 20rem;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    &__card{
+        margin: 0.5rem;
+        height: 18rem;
+        width: 12rem;
+        background: $grey-light;
+        
+        border-radius: 10px;
+        
+        img{
+            
+            height: 9rem;
+            width: 12rem;
+        }
+        &-text{
+            padding: .5rem;
+            h5{
+                color: #FFC006;
+            }
+            h6{
+                padding: 1rem 0;
+
+            }
+            p{
+                font-size: .6rem;
+            }
+        }
 
 
+    }
+
+}
+
+//blog-section end
+
+///footer-section started
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        height: 20rem;
+        width: 100%;
+        position: absolute;
+    }
+    &__content{
+        height: 15rem;
+        width: 80%;
+        background: limegreen;
+        position: relative;
+    }
+}

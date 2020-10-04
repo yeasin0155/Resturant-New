@@ -217,6 +217,103 @@ p {
   .options .secondary__8 {
     padding: 3rem 1.95rem; }
 
-.comment img {
+.comment {
   height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .comment img {
+    height: 30rem;
+    width: 100%;
+    position: absolute; }
+  .comment__card {
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    background: #FFFFFF;
+    position: relative;
+    border-radius: 10px; }
+  .comment__customer {
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    justify-content: center;
+    margin: 1rem; }
+    .comment__customer img {
+      position: relative;
+      display: flex;
+      height: 5rem;
+      width: 5rem;
+      border-radius: 50%;
+      padding: .5rem; }
+  .comment__content {
+    height: 16rem; }
+    .comment__content h3 {
+      color: #FFC519; }
+    .comment__content p {
+      padding: 1rem;
+      font-size: 1rem; }
+  .comment__show {
+    display: flex;
+    padding: 3rem 1rem; }
+    .comment__show img {
+      position: relative;
+      height: 3rem;
+      width: 3rem;
+      border-radius: 50%; }
+    .comment__show p {
+      padding: 0 1rem; }
+
+.delivery-banner img {
+  height: 40rem;
   width: 100%; }
+
+.blog {
+  height: 35rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .blog__box {
+    height: 25rem;
+    width: 60%; }
+    .blog__box img {
+      height: .6rem; }
+  .blog__content {
+    display: flex;
+    height: 20rem;
+    justify-content: center;
+    align-items: center; }
+  .blog__card {
+    margin: 0.5rem;
+    height: 18rem;
+    width: 12rem;
+    background: #EFECE3;
+    border-radius: 10px; }
+    .blog__card img {
+      height: 9rem;
+      width: 12rem; }
+    .blog__card-text {
+      padding: .5rem; }
+      .blog__card-text h5 {
+        color: #FFC006; }
+      .blog__card-text h6 {
+        padding: 1rem 0; }
+      .blog__card-text p {
+        font-size: .6rem; }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .footer img {
+    height: 20rem;
+    width: 100%;
+    position: absolute; }
+  .footer__content {
+    height: 15rem;
+    width: 80%;
+    background: limegreen;
+    position: relative; }
