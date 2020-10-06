@@ -308,6 +308,10 @@ p {
   display: flex;
   justify-content: center;
   align-items: center; }
+  .footer h3 {
+    color: #FFC519; }
+  .footer p {
+    color: #FFFFFF; }
   .footer img {
     height: 20rem;
     width: 100%;
@@ -315,5 +319,71 @@ p {
   .footer__content {
     height: 15rem;
     width: 80%;
-    background: limegreen;
-    position: relative; }
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex; }
+  .footer__part-1 {
+    height: 15rem;
+    width: 20%;
+    position: relative;
+    margin: 1rem; }
+  .footer__topic {
+    height: 2.5rem;
+    width: 100%;
+    display: flex; }
+    .footer__topic h3 {
+      height: 2rem;
+      width: 4rem; }
+    .footer__topic img {
+      height: 2rem;
+      width: 5rem;
+      position: relative; }
+  .footer__box {
+    width: 100%; }
+    .footer__box p {
+      font-size: .8rem;
+      padding: .2rem 0; }
+  .footer__part-2 {
+    height: 15rem;
+    width: 20%;
+    position: relative;
+    margin: 5rem; }
+    .footer__part-2 h3 {
+      padding-bottom: 1rem; }
+    .footer__part-2 p {
+      font-size: .8rem; }
+    .footer__part-2 .time {
+      float: right;
+      color: #FFC519; }
+    .footer__part-2 .email {
+      padding-bottom: .5rem; }
+  .footer__part-3 {
+    height: 15rem;
+    width: 30%;
+    position: relative;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column; }
+    .footer__part-3 h3 {
+      padding-bottom: 2rem; }
+    .footer__part-3 .image img {
+      height: 8rem;
+      width: 8rem;
+      position: relative;
+      margin-right: .5rem; }
+  .footer__bottom {
+    height: 5rem;
+    width: 75%;
+    position: relative;
+    top: 8rem; }
+    .footer__bottom p {
+      padding-top: 1.5rem;
+      font-size: .8rem; }
+    .footer__bottom .payment img {
+      height: 2rem;
+      width: 3rem;
+      position: relative;
+      float: right;
+      bottom: 2.2rem;
+      margin-right: .2rem; }
